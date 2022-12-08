@@ -2,16 +2,25 @@
     {
         "name": "Galaxy Watch",
         "price":100,
-        "img": "http://mu.creativeracer.net/lando/pro/images/screenshot-2017-9-28%20apple%20watch%20series%203.png?crc=126799423",
+        "img": "https://www.pchouse.com.bd/image/cache/catalog/11A/105/hv-m93-green-01-500x500-550x550.jpg",
         "description": "This watch has a multi-function knob with an ultra-light aluminum alloy body, Anodizing process, never fades. The Galaxy Watch 3 ATM waterproof smartwatch can work well on rainy days, and hand washing. Please do not wear it when deep diving or in hot water more than 40°C",
         "review":15,
         "stock":100
        
      },
+     {
+        "name": "Xiaomi Smart Band 6",
+        "price":140,
+        "img": "https://azse77seaprodsa.blob.core.windows.net/b2b-dr-pickaboocdn/media/catalog/product/cache/c9c3ae6e3f78df4924e8b3b9bf50d8e7/x/i/xiaomi-band-6.jpg",
+        "description": "Supported exercises: Treadmill, Freestyle, Outdoor running, Cycling, Walking, Pool swimming, Rowing machine, Elliptical, Indoor cycling, Yoga, Jump rope, Dance, Indoor fitness, Gymnastics, HIIT, Core training, Stretching, Bowling, Badminton, Boxing",
+        "review":9,
+        "stock":130
+       
+     },
     {
         "name": "Zepp E Square",
         "price":150,
-        "img": "http://mu.creativeracer.net/lando/pro/images/screenshot-2017-9-28%20apple%20watch%20series%201.png?crc=465914753",
+        "img": "https://www.pchouse.com.bd/image/cache/catalog/11A/105/hv-m93-green-01-500x500-550x550.jpg",
         "description": "Zepp E is a health partner that helps you understand multiple health metrics. With the cutting-edge bio-tracking optical sensor and leading AI algorithms, it’s easier than ever to track and analyze your wellness and fitness data. Blood-oxygen saturation (SpO2) is an important indicator of health,",
         "review":18,
         "stock":120
@@ -21,22 +30,14 @@
     {
         "name": "Galaxy Watch Active",
         "price":170,
-        "img": "http://mu.creativeracer.net/lando/pro/images/148918.png?crc=264854598",
+        "img": "https://www.pchouse.com.bd/image/cache/catalog/11A/076/Microwear-W17-Smart-Watch-2-550x550.jpg",
         "description": "This COLMI P28 Plus smart watch has a 1.69inch Large TFT touch screen curved with 2.5D glass and created with a resolution of 240 x 280 pixels. This wearable is also packed with a variety of watch faces and support customized dials.",
         "review":14,
         "stock":130
        
      
      },
-    {
-        "name": "Xiaomi Smart Band 6",
-        "price":140,
-        "img": "https://azse77seaprodsa.blob.core.windows.net/b2b-dr-pickaboocdn/media/catalog/product/cache/c9c3ae6e3f78df4924e8b3b9bf50d8e7/x/i/xiaomi-band-6.jpg",
-        "description": "Supported exercises: Treadmill, Freestyle, Outdoor running, Cycling, Walking, Pool swimming, Rowing machine, Elliptical, Indoor cycling, Yoga, Jump rope, Dance, Indoor fitness, Gymnastics, HIIT, Core training, Stretching, Bowling, Badminton, Boxing",
-        "review":9,
-        "stock":130
-       
-     },
+    
     {
         "name": "LEMFO LEM X",
         "price":200,

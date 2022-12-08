@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
 import Navbar from "./Navbar";
 import { ProductsCard } from "./ProductsCard";
 
@@ -14,8 +15,10 @@ useEffect(()=>{
   .then(data=> setProducts(data))
 },[])
 
+const state = useSelector((state)=>state)
 
-console.log(products)
+
+console.log(state)
   return (
     <>
       <Navbar />
@@ -27,21 +30,6 @@ console.log(products)
   ))
 }
       </div>
-
-
-
-
-
-      <div>hiiiiiiiii</div>
-      <div>hiiiiiiiii</div>
-      <div>hiiiiiiiii</div>
-      <div>hiiiiiiiii</div>
-      <div>hiiiiiiiii</div>
-      <div>hiiiiiiiii</div>
-      <div>hiiiiiiiii</div>
-      <div>hiiiiiiiii</div>
-      <div>hiiiiiiiii</div>
-      <div>hiiiiiiiii</div>
     </>
   );
 };
