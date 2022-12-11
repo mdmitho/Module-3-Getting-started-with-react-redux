@@ -12,7 +12,7 @@ export const ProductsCard = ({product}) => {
   <figure><img src={img} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title my-3">NAME : {name}</h2>
-    <h2 className="card-title my-3">PRICE : {price}</h2>
+    <h2 className="card-title my-3">PRICE : ${price}</h2>
     <p>{description}</p>
     <div className="card-actions justify-end my-3">
       <button onClick={()=> dispatch(addToCart(product))} className="btn btn-primary">ADD TO CARAT</button>

@@ -18,7 +18,7 @@ useEffect(()=>{
 const state = useSelector((state)=>state)
 
 
-console.log(state)
+// console.log(state)
   return (
     <>
       <Navbar />
