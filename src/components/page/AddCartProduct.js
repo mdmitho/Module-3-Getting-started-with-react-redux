@@ -4,7 +4,7 @@ import { removeFromCart } from '../../redux/productActions/productActions';
 
 
 export const AddCartProduct = ({product}) => {
-    const { name, img, price, description,rating,id} = product;
+    const { name, img, price, description,rating,id,quantity} = product;
   
     const dispatch = useDispatch()
     return (
@@ -13,6 +13,8 @@ export const AddCartProduct = ({product}) => {
   <figure><img src={img} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title my-3">NAME : {name}</h2>
+    <h2 className="card-title my-3">Quantity : {quantity}</h2>
+
     <h2 className="card-title my-3">PRICE : ${price}</h2>
     <h2 className="card-title my-3">Rating : {rating}</h2>
     <p>{description}</p>
